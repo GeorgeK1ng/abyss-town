@@ -2,9 +2,15 @@
 	"core:shipwreck" : {
 		"types" : {
 			"shipwreck" : {
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
 				"rewards": [
 					{
-						"appearChance" : { "min" : 0, "max" : 25 },
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 25 },
 						"guards": [
 							{ "amount": 12, "type": "tbirdvulgaris" },
 							{ "amount": 8, "type": "abyssSandCrab" },
@@ -18,7 +24,8 @@
 						}
 					},
 					{
-						"appearChance" : { "min" : 25, "max" : 50 },
+						"message" : 34,
+						"appearChance":  { "min" : 25, "max" : 50 },
 						"guards": [
 							{ "amount": 10, "type": "abyssSandCrab" },
 							{ "amount": 12, "type": "tbirdvulgaris" },
@@ -32,7 +39,8 @@
 						}
 					},
 					{
-						"appearChance" : { "min" : 50, "max" : 75 },
+						"message" : 34,
+						"appearChance":  { "min" : 50, "max" : 75 },
 						"guards": [
 							{ "amount": 12, "type": "abyssSandCrab" },
 							{ "amount": 15, "type": "tbirdelectric" },
@@ -47,7 +55,8 @@
 						"artifacts": [ { "class" : "TREASURE" } ]
 					},
 					{
-						"appearChance" : { "min" : 75, "max" : 85 },
+						"message" : 34,
+						"appearChance":  { "min" : 75, "max" : 85 },
 						"guards": [
 							{ "amount": 10, "type": "abyssSeahorse" },
 							{ "amount": 15, "type": "abyssAbyssalCrab" },
@@ -62,7 +71,8 @@
 						"artifacts": [ { "class" : "MINOR" } ]
 					},
 					{
-						"appearChance" : { "min" : 85, "max" : 95 },
+						"message" : 34,
+						"appearChance":  { "min" : 85, "max" : 95 },
 						"guards": [
 							{ "amount": 10, "type": "abyssSeahorse" },
 							{ "amount": 10, "type": "darkOne" },
@@ -77,7 +87,8 @@
 						"creatures": [ { "amount": 7, "type": "deepOne" } ]
 					},
 					{
-						"appearChance" : { "min" : 95, "max" : 100 },
+						"message" : 34,
+						"appearChance":  { "min" : 95, "max" : 100 },
 						"guards": [
 							{ "amount": 10, "type": "darkOne" },
 							{ "amount": 10, "type": "abyssHyppocamph" },
@@ -99,9 +110,15 @@
 	"core:derelictShip" : {
 		"types" : {
 			"derelictShip" : {
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
 				"rewards": [
 					{
-						"appearChance" : { "min" : 0, "max" : 25 },
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 25 },
 						"guards": [
 							{ "amount": 7, "type": "darkOne" },
 							{ "amount": 5, "type": "abyssDeepwaterJellyfish" },
@@ -115,7 +132,8 @@
 						}
 					},
 					{
-						"appearChance" : { "min" : 25, "max" : 50 },
+						"message" : 34,
+						"appearChance":  { "min" : 25, "max" : 50 },
 						"guards": [
 							{ "amount": 10, "type": "deepOne" },
 							{ "amount": 7, "type": "abyssDeepwaterJellyfish" },
@@ -130,7 +148,8 @@
 						"artifacts": [ { "class" : "TREASURE" } ]
 					},
 					{
-						"appearChance" : { "min" : 50, "max" : 75 },
+						"message" : 34,
+						"appearChance":  { "min" : 50, "max" : 75 },
 						"guards": [
 							{ "amount": 13, "type": "abyssSeahorse" },
 							{ "amount": 7, "type": "abyssAbyssalJellyfish" },
@@ -146,7 +165,8 @@
 						"spells" : [ { "level" : 2 } ]
 					},
 					{
-						"appearChance" : { "min" : 75, "max" : 90 },
+						"message" : 34,
+						"appearChance":  { "min" : 75, "max" : 90 },
 						"guards": [
 							{ "amount": 13, "type": "abyssHyppocamph" },
 							{ "amount": 12, "type": "iceElemental" },
@@ -162,7 +182,8 @@
 						"spells" : [ { "level" : 2 } ]
 					},
 					{
-					"appearChance" : { "min" : 90, "max" : 100 },
+						"message" : 34,
+						"appearChance":  { "min" : 90, "max" : 100 },
 						"guards": [
 							{ "amount": 16, "type": "goldenHyppocamph" },
 							{ "amount": 12, "type": "iceElemental" },
@@ -174,8 +195,8 @@
 						{
 							"gold" : 6000
 						},
-							"artifacts": [ { "class" : "MINOR" }, { "class" : "TREASURE" } ],
-							"spells" : [ { "level" : 3 } ]
+						"artifacts": [ { "class" : "MINOR" }, { "class" : "TREASURE" } ],
+						"spells" : [ { "level" : 3 } ]
 					}
 				]
 			}
