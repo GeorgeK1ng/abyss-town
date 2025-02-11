@@ -32,8 +32,7 @@
 		"0.80"   : [ "Various fixes"  ],
 		"0.70"   : [ "Initial release"  ]
 	},
-	"compatibility":
-	{
+	"compatibility" : {
 		"min" : "1.6.0"
 	},
 	"chinese" : {
@@ -114,25 +113,21 @@
 		"config/abyss/creatures/seaweedsup.json",
 		"config/abyss/creatures/Harpoon.json"
 	],
-    "artifacts":
-    [              
+    "artifacts" : [              
         "config/abyss/artifacts/Harpoon.json"        
     ],
 	
-	"heroClasses" :
-	[
+	"heroClasses" : [
 		"config/abyss/classes/abyssalShaman.json",
 		"config/abyss/classes/ichthyander.json"
 	],
 	
-	"spells" :
-	[
+	"spells" : [
 		"config/abyss/spells/moat.json",
 		"config/abyss/spells/childOfTheLight.json"
 	],
 
-	"heroes" :
-	[
+	"heroes" : [
 		"config/abyss/heroes/arkana.json",
 		"config/abyss/heroes/asler.json",
 		"config/abyss/heroes/karnti.json",
@@ -153,8 +148,7 @@
         "config/abyss/heroes/werser.json"
 	],
 	
-	"objects" : 
-	[ 
+	"objects" : [ 
 	"config/abyss/dwellings.json",
 	"config/abyss/banks/waterTemple.json" 
 	]
