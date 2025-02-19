@@ -25,7 +25,7 @@
 		"graphics" :
 		{
 			"animation" : "abyss/battle/creatures/harpoon.def",
-			"iconLarge" : "abyss-town-fix/iconsBig/creatures/harpoon.png",
+			"iconLarge" : "abyss/iconsBig/creatures/harpoon.png",
 			"iconSmall" : "abyss/iconsSmall/creatures/harpoon.bmp",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
