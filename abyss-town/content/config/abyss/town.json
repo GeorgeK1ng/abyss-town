@@ -659,7 +659,7 @@
 				"waterElemental" : 15
 			},
 			"guildWindow" : "abyss/town-screen/mage-guild.bmp",
-			"hallBackground" : "TPTHBKFR",
+			"hallBackground" : "abyss/town-screen/hallBackground.bmp",
 			"horde" : [ 2, 1 ],
 			"moatAbility" : "abyssMoat",
 			"icons" : {
