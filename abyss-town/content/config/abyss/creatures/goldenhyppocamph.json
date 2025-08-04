@@ -63,12 +63,14 @@
             },
 			"lucky":
 			{
-				"type" : "LUCK", "val" : 1, "valueType" : "INDEPENDENT_MAX"
+				"type" : "LUCK", "val" : 1, "valueType" : "INDEPENDENT_MAX",
+				"description" : "{Positive Luck}\nUnit luck cannot be decreased below +1",
+				"icon" : "abyss/icons/bonuses/positiveluck.png"					
 			},
 			 "spellAfterAttack" :
 			{
                 "type": "SPELL_AFTER_ATTACK",
-                "subtype": "spell.misfortune",
+                "subtype": "misfortune",
                 "val" : 50,
                 "addInfo": [2,2]
 			},
@@ -78,8 +80,9 @@
 				"type" : "MOVEMENT",
 				"val" : 300,
 				"valueType" : "ADDITIVE_VALUE",
-				"description" : "Increase sea movement",
-				"propagator" : "HERO"
+				"propagator" : "HERO",
+				"description" : "{Navigator}\nInreases hero sea movement points by 300",
+				"icon" : "abyss/icons/bonuses/e_whirl.png"				
 			}
         },
 		"stackExperience" :
@@ -89,7 +92,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},	
@@ -97,7 +100,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
@@ -105,15 +108,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax"
-				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin"
+					"subtype" : "creatureDamageBoth"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},

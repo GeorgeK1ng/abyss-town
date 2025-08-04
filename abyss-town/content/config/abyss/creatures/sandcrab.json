@@ -74,7 +74,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
 			},	
@@ -82,7 +82,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},	
@@ -121,7 +121,7 @@
 				"bonus" :
 				{
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.water"
+					"subtype" : "water"
 				},
 				"values" : [ false, false, false, false, false, true, true, true, true, true ]
 			},

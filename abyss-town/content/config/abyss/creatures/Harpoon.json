@@ -54,9 +54,14 @@
 		"doubleWide" : true,
 		"growth" : 0,
 		"hitPoints" : 250,
-                "shots" : 24,
-		
+        "shots" : 24,
 		"speed" : 0,
+		"sound" :
+		{
+			"killed": "BALLKILL.wav",
+			"shoot": "BALLSHOT.wav",
+			"wince": "BALLWNCE.wav"
+		},		
 		"abilities" :
 		{
         		"shooter" :
@@ -66,7 +71,7 @@
 		      "paralize" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.paralyze",
+				"subtype" : "paralyze",
 				"val" : 20
 			},
 			"warmachine" :
@@ -80,7 +85,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},	
@@ -88,7 +93,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 5, 6, 6, 7, 8 ]
 			},
