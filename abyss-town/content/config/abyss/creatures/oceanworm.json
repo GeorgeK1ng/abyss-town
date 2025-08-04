@@ -69,12 +69,14 @@
 			"waterImmunity":
 			{
 				"type":"NEGATIVE_EFFECTS_IMMUNITY",
-				"subtype": "water"
+				"subtype": "water",
+				"description" : "{Negative water spells immunity}\nUnit is immune to all negative water spells",
+				"icon" : "abyss/icons/bonuses/e_spwater.png"					
 			},
 			"binds" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.bind",
+				"subtype" : "bind",
 				"val" : 65,
 				"addInfo" : [1, 2]
 			}
@@ -86,7 +88,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
@@ -94,7 +96,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -102,15 +104,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax"
-				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin"
+					"subtype" : "creatureDamageBoth"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -128,14 +122,6 @@
 					"type" : "STACKS_SPEED"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "spellSchool.water"
-				},
-				"values" : [ false, false, false, false, false, true, true, true, true, true ]
 			},
 			{
 				"bonus" :

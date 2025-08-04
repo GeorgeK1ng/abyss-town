@@ -7,7 +7,7 @@
 					"alwaysMaximumDamage" : {
 						 "limiters": [
 							[ 
-								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", true ] } 
+								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : true } 
 							]
 						]
 					},
@@ -15,7 +15,7 @@
 						"propagator" : "BATTLE_WIDE",
 						"limiters": [
 							[ 
-								"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", true ] } 
+								"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : true }
 							]
 						],
 						"val" : 1,
@@ -36,7 +36,7 @@
 					"spellDamageReduction" : {
 						"limiters": [
 							[ 
-								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", true ] } 
+								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : true }
 							]
 						]
 					},
@@ -44,11 +44,11 @@
 						"propagator" : "BATTLE_WIDE",
 						"limiters": [
 							[ 
-								"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", true ] }
+								"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : true }
 							]
 						],
 						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "spellSchool.water",
+						"subtype" : "water",
 						"duration" : "N_TURNS",
 						"val" : 50
 					}		
@@ -65,7 +65,7 @@
 					"spellDamageReduction" : {
 						"limiters": [
 							[ 
-								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	}
+								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false }
 							]
 						]
 					},
@@ -73,11 +73,11 @@
 						"propagator" : "BATTLE_WIDE",
 						"limiters": [
 							[ 
-								"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ] }
+								"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false }
 							]
 						],
 						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "spellSchool.air",
+						"subtype" : "air",
 						"duration" : "N_TURNS",
 						"val" : 50
 					}
@@ -94,7 +94,7 @@
 					"spellDamageReduction" : {
 						"limiters": [
 							[ 
-								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ] } 
+								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false }
 							]
 						]
 					},
@@ -102,11 +102,11 @@
 					"propagator" : "BATTLE_WIDE",
 					"limiters": [
 						[ 
-							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ] } 
+							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false }
 						]
 					],
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.fire",
+					"subtype" : "fire",
 					"duration" : "N_TURNS",
 					"val" : 50
 					}
@@ -123,7 +123,7 @@
 					"spellDamageReduction" : {
 						"limiters": [
 							[ 
-								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	} 
+								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false }
 							]
 						]
 					},
@@ -131,11 +131,11 @@
 					"propagator" : "BATTLE_WIDE",
 					"limiters": [
 						[ 
-							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	} 
+							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false } 
 						]
 					],
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.earth",
+					"subtype" : "earth",
 						"duration" : "N_TURNS",
 						"val" : 50
 					}
@@ -152,7 +152,7 @@
 					"attack" : {
 						"limiters": [
 							[ 
-								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", true ]	}
+								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : true }
 							]
 						],
 						"duration" : "N_TURNS"
@@ -160,7 +160,7 @@
 					"defence" : {
 						"limiters": [
 							[ 
-								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", true ]	} 
+								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : true }
 							]
 						],
 						"duration" : "N_TURNS"
@@ -168,7 +168,7 @@
 					"stacksSpeed" : {
 						"limiters": [
 							[ 
-								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", true ]	} 
+								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : true } 
 							]
 						],
 						"duration" : "N_TURNS"
@@ -177,11 +177,11 @@
 						"propagator" : "BATTLE_WIDE",
 						"limiters": [
 							[ 
-								"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", true ]	} 
+								"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : true } 
 							]
 						],
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
+						"subtype" : "attack",
 						"val" : 4,
 						"duration" : "N_TURNS"
 					},
@@ -189,11 +189,11 @@
 						"propagator" : "BATTLE_WIDE",
 						"limiters": [
 							[ 
-								"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", true ]	} 
+								"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : true } 
 							]
 						],
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
+						"subtype" : "defence",
 						"val" : 4,
 						"duration" : "N_TURNS"
 					},
@@ -201,7 +201,7 @@
 						"propagator" : "BATTLE_WIDE",
 						"limiters": [
 							[ 
-								"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", true ]	} 
+								"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : true }
 							]
 						],
 						"type" : "STACKS_SPEED",
@@ -222,7 +222,7 @@
 					"morale" : {
 						"limiters": [
 							[ 
-								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", true ]	} 
+								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : true } 
 							]
 						]
 					},
@@ -230,7 +230,7 @@
 						"propagator" : "BATTLE_WIDE",
 						"limiters": [
 							[ 
-								"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", true ]	} 
+								"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : true } 
 							]
 						],
 						"type" : "MORALE",
@@ -250,7 +250,7 @@
 					"generalDamageReduction" : {
 						"limiters": [
 							[ 
-								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	} 
+								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false } 
 							]
 						]
 					},
@@ -258,7 +258,7 @@
 						"propagator" : "BATTLE_WIDE",
 						"limiters": [
 							[ 
-								"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	}
+								"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false }
 							]
 						],
 						"type" : "GENERAL_DAMAGE_REDUCTION",
@@ -279,7 +279,7 @@
 					"generalDamageReduction" : {
 						"limiters": [
 							[ 
-								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	} 
+								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false } 
 							]
 						]
 					},
@@ -287,7 +287,7 @@
 					"propagator" : "BATTLE_WIDE",
 					"limiters": [
 						[ 
-							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	} 
+							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false }
 						]
 					],
 					"type" : "GENERAL_DAMAGE_REDUCTION",
@@ -308,7 +308,7 @@
 					"fireShield" : {
 						"limiters": [
 							[ 
-								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	} 
+								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false }
 							]
 						]
 					},
@@ -316,7 +316,7 @@
 						"propagator" : "BATTLE_WIDE",
 						"limiters": [
 						[ 
-							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	} 
+							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false }
 						]
 					],
 					"type" : "FIRE_SHIELD",
@@ -336,7 +336,7 @@
 					"magicMirror" : {
 						"limiters": [
 							[ 
-								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	} 
+								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false }
 							]
 						]
 					},
@@ -344,7 +344,7 @@
 					"propagator" : "BATTLE_WIDE",
 					"limiters": [
 						[ 
-							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	} 
+							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false } 
 						]
 					],
 					"type" : "MAGIC_MIRROR",
@@ -365,7 +365,7 @@
 					"primarySkill" : {
 						"limiters": [
 							[ 
-								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	} 
+								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false } 
 							]
 						]
 					},
@@ -373,12 +373,12 @@
 					"propagator" : "BATTLE_WIDE",
 					"limiters": [
 						[ 
-							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	} 
+							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false }
 						]
 					],
 					"val" : 6,
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					//"effectRange" : "ONLY_MELEE_FIGHT",
 					"duration" : "N_TURNS"
 					}
@@ -394,18 +394,18 @@
 				"effects" : {
 					"primarySkill" : {
 						 "limiters": [
-						[ "noneOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : ["abyssYuanTiLeader", false ]	} ]
+						[ "noneOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false } ]
 								]
 					},
 					"maximumDamage2" : {
 					"propagator" : "BATTLE_WIDE",
 					"limiters": [
 						[ 
-							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	} 
+							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false }
 						]
 					],
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"val" : 6,
 					"duration" : "N_TURNS"
 					}
@@ -422,7 +422,7 @@
 					"luck" : {
 						"limiters": [
 							[ 
-								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	} 
+								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false } 
 							]
 						]
 					},
@@ -430,7 +430,7 @@
 					"propagator" : "BATTLE_WIDE",
 					"limiters": [
 						[ 
-							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	} 
+							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false } 
 						]
 					],
 					"type" : "LUCK",
@@ -450,7 +450,7 @@
 					"stacksSpeed" : {
 						"limiters": [
 							[ 
-								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	} 
+								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false } 
 							]
 						]
 					},
@@ -458,7 +458,7 @@
 						"propagator" : "BATTLE_WIDE",
 						"limiters": [
 							[ 
-							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	} 
+							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false } 
 							]
 						],
 //						"addInfo" : 0,
@@ -479,7 +479,7 @@
 					"slayer" : {
 						"limiters": [
 							[ 
-								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	} 
+								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false } 
 							]
 						]
 					},
@@ -487,7 +487,7 @@
 					"propagator" : "BATTLE_WIDE",
 					"limiters": [
 						[ 
-							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	}
+							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false }
 						]
 					],
 					"type" : "SLAYER",	
@@ -507,7 +507,7 @@
 					"additionalRetaliation" : {
 						"limiters": [
 							[ 
-								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	} 
+								"noneOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false } 
 							]
 						]
 					},
@@ -515,7 +515,7 @@
 					"propagator" : "BATTLE_WIDE",
 					"limiters": [
 						[ 
-							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "abyssYuanTiLeader", false ]	} 
+							"anyOf", {"type" : "CREATURE_TYPE_LIMITER", "creature" : "abyssYuanTiLeader", "includeUpgrades" : false }
 						]
 					],
 					"type" : "ADDITIONAL_RETALIATION",

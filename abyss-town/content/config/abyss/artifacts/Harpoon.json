@@ -15,7 +15,8 @@
 		"graphics":
 		{
 			"image": "abyss/iconsSmall/creatures/artifacts/harpoon.bmp",
-			"map"  :   "abyss/map/artifacts/avcnbksm.def"
+			"map"  :   "abyss/map/artifacts/avcnbksm.def",
+			"scenarioBonus" : "abyss/icons/bonuses/blank.png"
 		}
 	}
 }
