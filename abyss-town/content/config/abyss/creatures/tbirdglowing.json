@@ -58,13 +58,13 @@
                                  "type": "SPELL_AFTER_ATTACK",
                                  "subtype": "spell.lightningBolt",
                                  "val" : 10,
-                                 "addInfo": [1, 2]
+                                 "addInfo": 0
 			},
 			"lightningBoltPOwer" :
 			{
 				"type": "SPECIFIC_SPELL_POWER",
-				"subtype":"lightningBolt",
-				"val" : 10
+				"subtype":"spell.lightningBolt",
+				"val" : 1
 			},
 			"flying" :
 			{
@@ -88,7 +88,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "attack"
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
 			},	
@@ -96,7 +96,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "defence"
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},	

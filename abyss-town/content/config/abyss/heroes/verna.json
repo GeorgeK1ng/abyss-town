@@ -44,11 +44,11 @@
 		],
 		"specialty" : {
 			"base" : {
-				"addInfo" : "tbirdbloody",
+				"addInfo" : "creature.tbirdbloody",
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
-				"tbirdbloody" : { "subtype" : "tbirdelectric" }
+				"tbirdbloody" : { "subtype" : "creature.tbirdelectric" }
 			}
 		}		
 	}

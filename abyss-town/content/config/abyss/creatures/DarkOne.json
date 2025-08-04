@@ -63,12 +63,9 @@
 		"speed" : 5,
 		"abilities":
 		{
-			 "spellAfterAttack" :
-			{
-                "type": "SPELL_AFTER_ATTACK",
-                "subtype": "poison",
-                "val" : 100,
-                "addInfo": [2,2]
+			"poison":{
+				"type":"POISON",
+				"val": 3
 			}
 		},
 		"stackExperience" :
@@ -78,7 +75,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "attack"
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},	
@@ -86,7 +83,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "defence"
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
@@ -94,7 +91,15 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageBoth"
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},

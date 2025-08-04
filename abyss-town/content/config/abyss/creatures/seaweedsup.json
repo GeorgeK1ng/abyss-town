@@ -5,7 +5,7 @@
 			"binds" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "bind",
+				"subtype" : "spell.bind",
 				"val" : 90,
 				"addInfo" : [0,2]
 			},
@@ -16,11 +16,15 @@
 			},
 			"acidBreath" : {
 				"type" : "ACID_BREATH",
-				"val" : 20,
-				"addInfo" : 50,
-				"description" : "{Acid Breath}\nUnit has 50% change to deal 20% more acid damage",
-				"icon" : "abyss/icons/bonuses/e_breath.png"					
-			}		
+				"val" : 2,
+				"addInfo" : 50
+			},
+			"reduceDefence" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.acidBreath",
+				"val" : 100
+			}			
 		},
 		"stackExperience" :
 		[	
@@ -28,7 +32,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "attack"
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},	
@@ -36,7 +40,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "defence"
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
@@ -44,7 +48,15 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageBoth"
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},

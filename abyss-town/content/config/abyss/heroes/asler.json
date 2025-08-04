@@ -34,11 +34,11 @@
 		],
 		"specialty" : {
 			"base" : {
-				"addInfo" : "goldenHyppocamph",
+				"addInfo" : "creature.goldenHyppocamph",
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
-				"goldenHyppocamph2goldenHyppocamph" : { "subtype" : "abyssHyppocamph" }
+				"goldenHyppocamph2goldenHyppocamph" : { "subtype" : "creature.abyssHyppocamph" }
 			}
 		}		
 	}

@@ -64,11 +64,7 @@
             },
 			"lucky":
 			{
-				"type" : "LUCK", 
-				"val" : 1, 
-				"valueType" : "INDEPENDENT_MAX",
-				"description" : "{Positive Luck}\nUnit luck cannot be decreased below +1",
-				"icon" : "abyss/icons/bonuses/positiveluck.png"				
+				"type" : "LUCK", "val" : 1, "valueType" : "INDEPENDENT_MAX"
 			}
         },
 		"stackExperience" :
@@ -78,7 +74,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "attack"
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},	
@@ -86,7 +82,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "defence"
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
@@ -94,7 +90,15 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageBoth"
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},

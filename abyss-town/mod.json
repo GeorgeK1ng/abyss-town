@@ -3,12 +3,11 @@
 	"description" : "Abyss town",
 	"author" : "Axolotl (graphics), mitlandy, Tooandorisu, Warmonger, misiokles, Troggly, Dydzio, Anonymous, StasPV",
 	"contact" : "https://forum.vcmi.eu/t/abyss-town-revived/1010",
-	"version" : "1.16",
+	"version" : "1.15",
 	"modType" : "Town",
 	"factions" : [ "config/abyss/town" ],
 	"changelog" :
 	{
-		"1.16"   : [ "Update for vcmi-1.7 format" ],
 		"1.15"   : [ "Minor tweak" ],
 		"1.14"   : [ "Fixed missing commas" ],
 		"1.13"   : [ "Added ukrainian translation" ],
@@ -35,7 +34,7 @@
 		"0.70"   : [ "Initial release"  ]
 	},
 	"compatibility" : {
-		"min" : "1.7.0"
+		"min" : "1.6.0"
 	},
 	"chinese" : {
 		"name" : "深渊",
