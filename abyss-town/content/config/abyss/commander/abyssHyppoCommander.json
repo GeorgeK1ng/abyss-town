@@ -73,7 +73,7 @@
 			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
-				"val" : 50
+				"val" : 5
 			},
 			"castsAmount" : {
 				"type" : "CASTS",
