@@ -10,7 +10,7 @@
 	],
 	"changelog" : {
 		"1.17" : [
-			"Fix for commander magic resustance"
+			"Fix for commander magic resistance"
 		],
 		"1.16" : [
 			"Update for vcmi-1.7 format"
