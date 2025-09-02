@@ -103,7 +103,7 @@
 						"animation" : "abyss/map/abyssdw10.def",
 						"mask" : [
 							"VVV",
-							"BAB"
+							"VAB"
 						]
 					}
 				}
