@@ -3,12 +3,15 @@
 	"description" : "Abyss town",
 	"author" : "Axolotl (graphics), mitlandy, Tooandorisu, Warmonger, misiokles, Troggly, Dydzio, Anonymous, StasPV",
 	"contact" : "https://forum.vcmi.eu/t/abyss-town-revived/1010",
-	"version" : "1.18",
+	"version" : "1.19",
 	"modType" : "Town",
 	"factions" : [
 		"config/abyss/town"
 	],
 	"changelog" : {
+		"1.19" : [
+			"Added flagport frames (Kingdom Overwiev window)"
+		],
 		"1.18" : [
 			"Fix for reef dwelling mask"
 		],

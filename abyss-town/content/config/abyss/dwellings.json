@@ -14,10 +14,12 @@
 						"mask" : [
 							"VVV",
 							"VVV",
-							"VAB"
+							"VVA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "abyss/map/flagports/abyssdw01.def"
+				
 			},
 			"crimsonPool" : {
 				"name" : "Crimson Pool",
@@ -32,10 +34,11 @@
 						"mask" : [
 							"VVV",
 							"VVV",
-							"VAB"
+							"VVA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "abyss/map/flagports/abyssdw12.def"
 			},
 			"waterdeepPool" : {
 				"name" : "Waterdeep Pool",
@@ -50,10 +53,11 @@
 						"mask" : [
 							"VVV",
 							"VVV",
-							"VAB"
+							"VVA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "abyss/map/flagports/abyssdw11.def"
 			},
 			"shellShelter" : {
 				"name" : "Shell Shelter",
@@ -67,11 +71,12 @@
 						"animation" : "abyss/map/abyssdw2.def",
 						"mask" : [
 							"VVV",
-							"VVV",
+							"VVB",
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "abyss/map/flagports/abyssdw02.def"
 			},
 			"reefTunnel" : {
 				"name" : "Reef Tunnel",
@@ -85,11 +90,12 @@
 						"animation" : "abyss/map/abyssdw3.def",
 						"mask" : [
 							"VVV",
-							"VVV",
-							"VAB"
+							"VBV",
+							"VAV"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "abyss/map/flagports/abyssdw03.def"
 			},
 			"reef" : {
 				"name" : "Reef",
@@ -106,7 +112,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "abyss/map/flagports/abyssdw10.def"
 			},
 			"hotWaterIncubator" : {
 				"name" : "Hot Water Incubator",
@@ -119,11 +126,12 @@
 					"default" : {
 						"animation" : "abyss/map/abyssdw4.def",
 						"mask" : [
-							"VVV",
-							"VAB"
+							"VVBV",
+							"VVAV"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "abyss/map/flagports/abyssdw04.def"
 			},
 			"shelter" : {
 				"name" : "Shelter",
@@ -141,7 +149,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "abyss/map/flagports/abyssdw08.def"
 			},
 			"coralCavern" : {
 				"name" : "Coral Cavern",
@@ -156,11 +165,12 @@
 						"animation" : "abyss/map/abyssdw5.def",
 						"mask" : [
 							"VVV",
-							"VBB",
+							"VBV",
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "abyss/map/flagports/abyssdw05.def"
 			},
 			"yuanTiPalace" : {
 				"name" : "Merrow Palace",
@@ -175,11 +185,12 @@
 						"animation" : "abyss/map/abyssdw6.def",
 						"mask" : [
 							"VVV",
-							"VBB",
+							"VBV",
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "abyss/map/flagports/abyssdw06.def"
 			},
 			"summoningWhirpool" : {
 				"name" : "Summoning Whirpool",
@@ -194,11 +205,12 @@
 						"animation" : "abyss/map/abyssdw7.def",
 						"mask" : [
 							"VVV",
-							"VBB",
+							"VBV",
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "abyss/map/flagports/abyssdw07.def"
 			},
 			"ancientWhirpool" : {
 				"name" : "Ancient Whirpool",
@@ -215,11 +227,13 @@
 							"VVVV",
 							"VVVV",
 							"VVVV",
-							"VBBV",
-							"VBAV"
+							"VVVV",
+							"VVBV",
+							"VVAV"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "abyss/map/flagports/abyssdw09.def"
 			}
 		}
 	},
@@ -251,11 +265,11 @@
 						"animation" : "abyss/map/birthingPit.def",
 						"mask" : [
 							"VVV",
-							"VVV",
-							"VAB"
+							"VAV"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "abyss/map/flagports/abyssdw13.def"
 			}
 		}
 	}
