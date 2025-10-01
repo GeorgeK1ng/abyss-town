@@ -13,6 +13,9 @@
 			"Converted BMPs to PNGs",
 			"Updated Czech translation"
 		],
+		"1.19" : [
+			"Added flagport frames (Kingdom Overwiev window)"
+		],
 		"1.18" : [
 			"Fix for reef dwelling mask"
 		],
