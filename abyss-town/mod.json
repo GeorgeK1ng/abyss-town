@@ -10,7 +10,7 @@
 	],
 	"changelog" : {
 		"1.21" : [
-			"Fixed configs after BMPs to PNGs conversion",
+			"Fixed configs after BMPs to PNGs conversion"
 		],
 		"1.20" : [
 			"Converted BMPs to PNGs",
